@@ -3,7 +3,7 @@
       <img src="./pics/logo.png" alt="Mano-P Logo" height="60" style="vertical-align: -15px;">                                            
       Mano-P 1.0                                                                                                                          
     </h1>                                                                                                                                 
-    <p><strong>面向端侧设备的GUI感知智能体模型</strong></p>                                                                               
+    <p><strong>GUI-Aware Agent Model for Edge Devices</strong></p>                                                                               
 </div>   
 
 <hr>
