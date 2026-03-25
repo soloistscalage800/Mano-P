@@ -16,7 +16,7 @@
 
 <a href="README_CN.md">中文</a> | English
 
-**[📖 Overview](#-overview) | [🎬 Use Cases](#-use-case-demonstrations) | [🔧 Skills](#-skills) | [🤖 Models](#models) | [⚗️ Approach](#approach) | [🌟 Technical Advantages](#-technical-advantages) | [📄 Citation](#-technical-papers--citation)**
+**[📖 Overview](#-overview) | [🎬 Use Cases](#-use-case-demonstrations) | [🔧 Skills](#-skills) | [🤖 Models](#models) | [⚗️ Approach](#approach) | [🌟 Technical Advantages](#-technical-advantages) | [📄 Citation](#-technical-papers--citation) | [❓ FAQ](#-faq)**
 
 </div>
 
@@ -1626,6 +1626,92 @@ We welcome collaboration with academia:
 - 📚 **Benchmarking**: Test Mano-P on new evaluation sets
 
 For academic collaboration inquiries, please contact: model@mininglamp.com
+
+---
+
+## ❓ FAQ
+
+<details open>
+<summary><b>🤖 What is Mano-P?</b></summary>
+<br>
+
+Mano-P is an **open-source GUI-VLA (Vision-Language-Action) agent** designed to run locally on Apple Silicon edge devices. It uses **pure visual understanding** to automate desktop GUI operations across platforms.
+
+</details>
+
+<details open>
+<summary><b>⚖️ How does Mano-P compare to Claude Computer Use?</b></summary>
+<br>
+
+**Performance Comparison:**
+
+- OSWorld (all models): Claude Sonnet 4.6 **72.1%** vs Mano-P 1.0-72B **58.2%**
+- WebRetriever Protocol I: Mano-P **41.7 NavEval** vs Claude 4.5 Computer Use **31.3**
+
+**Key Difference:**
+
+- ✅ Mano-P **runs entirely on-device**, no data leaves the machine
+- ⚠️ Claude Computer Use requires cloud API calls
+
+**Use Case:** Mano-P is particularly suitable for **high-security scenarios**.
+
+</details>
+
+<details open>
+<summary><b>🔌 Can Mano-P run without internet?</b></summary>
+<br>
+
+**Yes!** In local mode, all model inference runs on the Apple M4 device. ✅ **No screenshots or task descriptions are sent to external servers.**
+
+</details>
+
+<details open>
+<summary><b>💻 What hardware do I need?</b></summary>
+<br>
+
+**Minimum Requirements:**
+
+- Mac mini or MacBook
+- Apple M4 chip
+- 32GB RAM
+
+**Alternative:**
+
+- Any Mac + Mano-P computing stick (connected via USB 4.0+)
+
+📌 We plan to support more devices in the future.
+
+</details>
+
+<details open>
+<summary><b>📦 How do I install Mano-P?</b></summary>
+<br>
+
+**CLI Tool:**
+
+```bash
+brew tap HanningWang/tap && brew install mano-cua
+```
+
+**OpenClaw/Claude Code Skill:**
+See [ClawHub - Mano-CUA](https://clawhub.ai/HanningWang/mano-cua)
+
+</details>
+
+<details open>
+<summary><b>🔒 Is my data safe?</b></summary>
+<br>
+
+**Local Mode:** ✅ All processing happens on-device
+
+**Cloud Mode:**
+
+- ⚠️ Only screenshots and task descriptions sent to `mano.mininglamp.com`
+- ✅ No local files, clipboard contents, or credentials accessed
+
+**Transparency:** Full client is [open-source](https://github.com/HanningWang/mano-skill) for audit
+
+</details>
 
 ---
 

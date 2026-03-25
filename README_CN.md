@@ -16,7 +16,7 @@
 
 中文 | <a href="README.md">English</a>
 
-**[📖 项目概述](#-项目概述) | [🎬 应用场景](#-应用场景展示) | [🔧 Skills](#-skills) | [🤖 模型](#模型) | [⚗️ 方法](#方法) | [🌟 技术优势](#-技术优势) | [📄 论文引用](#-技术论文与引用)**
+**[📖 项目概述](#-项目概述) | [🎬 应用场景](#-应用场景展示) | [🔧 Skills](#-skills) | [🤖 模型](#模型) | [⚗️ 方法](#方法) | [🌟 技术优势](#-技术优势) | [📄 论文引用](#-技术论文与引用) | [❓ FAQ](#-常见问题)**
 
 </div>
 
@@ -1609,6 +1609,92 @@ Mano-P基于以下研究工作：
 - 📚 **基准测试**：在新的评测集上测试Mano-P
 
 如有学术合作意向，请联系：model@mininglamp.com
+
+---
+
+## ❓ 常见问题
+
+<details open>
+<summary><b>🤖 Mano-P 是什么？</b></summary>
+<br>
+
+Mano-P 是一个**开源的 GUI-VLA（Vision-Language-Action）智能体**，设计用于在苹果芯片边缘设备上本地运行。它使用**纯视觉理解**来跨平台自动化桌面 GUI 操作。
+
+</details>
+
+<details open>
+<summary><b>⚖️ Mano-P 与 Claude Computer Use 相比如何？</b></summary>
+<br>
+
+**性能对比：**
+
+- OSWorld（所有模型）：Claude Sonnet 4.6 **72.1%** vs Mano-P 1.0-72B **58.2%**
+- WebRetriever Protocol I：Mano-P **41.7 NavEval** vs Claude 4.5 Computer Use **31.3**
+
+**核心差异：**
+
+- ✅ Mano-P **完全在设备上运行**，数据不离开设备
+- ⚠️ Claude Computer Use 需要云端 API 调用
+
+**适用场景：** Mano-P 特别适合**高安全性要求**的场景。
+
+</details>
+
+<details open>
+<summary><b>🔌 Mano-P 可以离线运行吗？</b></summary>
+<br>
+
+**可以！** 在本地模式下，所有模型推理都在 Apple M4 设备上运行。✅ **不会向外部服务器发送任何截图或任务描述。**
+
+</details>
+
+<details open>
+<summary><b>💻 需要什么硬件配置？</b></summary>
+<br>
+
+**最低要求：**
+
+- Mac mini 或 MacBook
+- Apple M4 芯片
+- 32GB 内存
+
+**替代方案：**
+
+- 任何 Mac + Mano-P 算力棒（通过 USB 4.0+ 连接）
+
+📌 我们计划在未来支持更多设备。
+
+</details>
+
+<details open>
+<summary><b>📦 如何安装 Mano-P？</b></summary>
+<br>
+
+**CLI 工具形式：**
+
+```bash
+brew tap HanningWang/tap && brew install mano-cua
+```
+
+**OpenClaw/Claude Code Skill 形式：**
+请参见 [ClawHub - Mano-CUA](https://clawhub.ai/HanningWang/mano-cua)
+
+</details>
+
+<details open>
+<summary><b>🔒 我的数据安全吗？</b></summary>
+<br>
+
+**本地模式：** ✅ 所有处理都在设备上进行
+
+**云端模式：**
+
+- ⚠️ 仅截图和任务描述发送到 `mano.mininglamp.com`
+- ✅ 不访问本地文件、剪贴板内容或凭证
+
+**透明度：** 完整客户端[开源](https://github.com/HanningWang/mano-skill)可供审计
+
+</details>
 
 ---
 
