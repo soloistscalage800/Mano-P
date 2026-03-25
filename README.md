@@ -570,6 +570,7 @@ Mano-P, The small-sized end side GUI-VLA model can run directly on your computer
       <td>0.8828</td>
       <td>0.7238</td>
     </tr>
+    <tr>
       <td>P2</td>
       <td>10.00</td>
       <td>7.33</td>
@@ -582,7 +583,6 @@ Mano-P, The small-sized end side GUI-VLA model can run directly on your computer
       <td>0.3452</td>
       <td>0.8848</td>
       <td>0.7258</td>
-    <tr>
     </tr>
     <tr>
       <td rowspan="2">Qwen2.5-VL-7B</td>
